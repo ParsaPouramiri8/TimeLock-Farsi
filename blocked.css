@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Vazirmatn;
+  src: url("fonts/Vazirmatn-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0b1020;
+  color: #e6e9f2;
+  font-family: Vazirmatn, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+#timelock-wrap {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(60vmax 60vmax at 10% 20%, #1e2746 0%, transparent 60%),
+    radial-gradient(60vmax 60vmax at 90% 80%, #151c33 0%, transparent 60%),
+    #0b1020;
+}
+.card {
+  width: min(680px, 92vw);
+  text-align: center;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 28px 24px 32px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+}
+.lock { font-size: 48px; margin-bottom: 8px; }
+h1 { font-size: 20px; margin: 6px 0 10px; line-height: 1.5; }
+.domain { opacity: 0.85; margin: 4px 0 16px; }
+.countdown {
+  font-size: 42px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #8ab4ff, #b388ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 8px 0 12px;
+}
+.hint { opacity: 0.8; }

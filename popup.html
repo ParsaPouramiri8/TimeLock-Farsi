@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <title>TimeLock</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>TimeLock ⏳</h1>
+      
+      <div class="row">
+        <input id="domain" placeholder="example.com یا سایت فعلی" />
+        <input id="minutes" type="number" min="1" value="30" />
+        <span class="unit">دقیقه</span>
+        <button id="add">قفل کن</button>
+      </div>
+
+      <div class="hint">دامنه را بدون http/https وارد کن. (مثل: instagram.com)</div>
+
+      <h2>لیست قفل‌ها</h2>
+      <div id="list"></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
