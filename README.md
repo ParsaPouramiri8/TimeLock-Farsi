@@ -37,3 +37,12 @@
 
 ## 📜 مجوز
 این پروژه تحت لایسنس [MIT](./LICENSE) منتشر شده است.  
+
+---
+## 👥 همکاری و ایده
+ایده‌ی این پروژه توسط [Parsa Pouramiri](https://github.com/ParsaPouramiri8) مطرح شد و توسعه‌ی کدها با کمک ChatGPT انجام شد.  
+هدف اصلی این بود که یک نمونه‌ی کاربردی و ساده برای تمرکز و مدیریت زمان ساخته شود.
+## 👥 Collaboration & Idea
+The idea for this project was proposed by [Parsa Pouramiri](https://github.com/ParsaPouramiri8) and the code was implemented with the assistance of ChatGPT.  
+The main goal was to create a practical and simple tool for focus and time management.
+
